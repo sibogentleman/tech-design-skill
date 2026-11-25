@@ -7,7 +7,8 @@
 - 简练表达：减少背景铺垫，不反复描述通用原则和边界。
 - 图文一致：用 Mermaid 展示模块与执行流程，图、正文、代码使用相同的接口和状态名称。
 - 实现具体：每项本期核心功能给出输入、输出、分支和核心伪代码。
-- 按需裁剪：小项目合并章节，复杂项目补充监控、灰度、迁移、验收与任务拆分。
+- 完整评审稿先列文档状态、适用范围和资料表，再按固定顺序写 11 个一级章节。具体功能放在“技术方案设计”的二三级标题下。
+- 用户要求精简、局部修改或指定其他模板时，按请求调整。重排已有文档时保留图表、代码、来源和评审记录。
 - 依据清楚：区分现有事实、拟议设计和待确认事项，不虚构验证结果。
 - 手动估算：默认不生成人力、工期、人数或合计；保留任务与依赖，手填字段留空，仅在用户明确要求时估算。
 
@@ -27,7 +28,7 @@ https://github.com/sibogentleman/tech-design-skill/tree/main/skills/tech-design
 ## 使用
 
 ```text
-使用 $tech-design，根据当前需求和代码生成技术方案，包含架构图、关键时序图和各核心功能伪代码。
+使用 $tech-design，根据当前需求和代码，按内置评审模板生成完整技术方案，包含架构图、关键时序图和各核心功能伪代码。
 ```
 
 ```text
@@ -39,5 +40,5 @@ https://github.com/sibogentleman/tech-design-skill/tree/main/skills/tech-design
 ## 文件
 
 - [SKILL.md](skills/tech-design/SKILL.md)：生成流程与写作要求。
-- [report-format.md](skills/tech-design/references/report-format.md)：可裁剪的报告结构。
+- [report-format.md](skills/tech-design/references/report-format.md) 列出了 11 个一级章节及各章的写作要求。
 - [openai.yaml](skills/tech-design/agents/openai.yaml)：Codex 显示名称与默认提示词。

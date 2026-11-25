@@ -1,4 +1,4 @@
 interface:
   display_name: "技术方案"
-  short_description: "生成简练技术方案，包含架构图、时序图与各核心功能伪代码"
-  default_prompt: "使用 $tech-design，根据当前需求和代码生成一份简练的技术方案，包含架构图、关键时序图与核心伪代码。"
+  short_description: "按研发评审模板编写技术方案，包含架构、关键时序、伪代码与验收依据"
+  default_prompt: "使用 $tech-design，根据当前需求和代码，按评审模板的章节顺序编写技术方案，包含架构图、关键时序图与核心伪代码。"
